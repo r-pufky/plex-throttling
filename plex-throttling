@@ -5,6 +5,8 @@
 ### http://www.cyberciti.biz/faq/linux-traffic-shaping-using-tc-to-control-http-traffic/
 ### Script originally from: https://forums.plex.tv/discussion/39823/howto-limit-plex-media-server-bandwidth-on-linux
 #######
+# place in /etc/init.d
+# sudo update-rc.d plex-throttling defaults
 
 ### Sleep for a second
 sleep 1
